@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.img-box {
+		@apply flex items-center justify-center overflow-hidden;
+	}
+
+	img {
+		@apply w-full h-full object-contain;
+	}
+}
+
+@layer base {
+	@font-face {
+		font-family: 'Yekan';
+		src: url('./assets/font/BYekan.ttf');
+	}
+
+	body,
+	html,
+	* {
+		font-family: 'Yekan';
+	}
+}

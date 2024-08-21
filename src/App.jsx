@@ -1,12 +1,8 @@
 import Header from './components/Header';
-import Banner from './components/Banner';
-import Services from './components/Services';
 function App() {
 	return (
-		<div>
+		<div className='business-landing-app bg-white-flash py-12'>
 			<Header />
-			<Banner />
-			<Services />
 		</div>
 	);
 }
