@@ -21,6 +21,9 @@ export default {
 					risd: '#374bff',
 				},
 			},
+			scale : {
+				'200' : '2.00'
+			}
 		},
 	},
 	plugins: [],
