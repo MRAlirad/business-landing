@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: [
-		"./index.html",
-		"./src/**/*.{js,ts,jsx,tsx}",
-	],
+	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		extend: {
 			colors: {
@@ -12,20 +9,20 @@ export default {
 					flash: '#F4F5F7',
 				},
 				orange: {
-					dark: '#FF8B00'
+					dark: '#FF8B00',
 				},
 				gray: {
 					dim: '#616161',
+					charcoal: '#404852',
 				},
 				blue: {
 					risd: '#374bff',
 				},
 			},
-			scale : {
-				'200' : '2.00'
-			}
+			scale: {
+				200: '2.00',
+			},
 		},
 	},
 	plugins: [],
-}
-
+};
