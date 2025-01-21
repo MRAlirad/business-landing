@@ -26,6 +26,14 @@
 	.btn.outline-orange {
 		@apply text-orange-dark bg-orange-dark/15;
 	}
+
+	.btn.blue {
+		@apply bg-blue-risd text-white-primary;
+	}
+
+	.btn.outline-blue {
+		@apply text-blue-risd bg-blue-risd/15;
+	}
 }
 
 @layer base {
