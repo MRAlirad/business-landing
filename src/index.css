@@ -10,13 +10,21 @@
 	img {
 		@apply w-full h-full object-contain;
 	}
-	
+
 	.btn {
 		@apply px-4 py-2.5 rounded-lg text-xl font-bold;
 	}
-	
+
 	.btn.white {
 		@apply bg-white-primary text-blue-risd;
+	}
+
+	.btn.orange {
+		@apply bg-orange-dark text-white-primary;
+	}
+
+	.btn.outline-orange {
+		@apply text-orange-dark bg-orange-dark/15;
 	}
 }
 
